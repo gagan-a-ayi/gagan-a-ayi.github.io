@@ -611,7 +611,7 @@
                     <a href="#about" class="nav-link">ABOUT</a>
                     <a href="#skills" class="nav-link">SKILLS</a>
                     <a href="#projects" class="nav-link">PROJECTS</a>
-                    <a href="#experience" class="nav-link">EXP</a>
+                    <a href="#experience" class="nav-link">EXPERIENCE</a>
                     <a href="#contact" class="nav-link">CONTACT</a>
                 </div>
             </div>
@@ -631,9 +631,9 @@
                         </div>
                         <div class="flex flex-wrap gap-4">
                             <a href="resume.pdf" download class="retro-btn">
-                                <i class="fas fa-download mr-2"></i>DOWNLOAD CV
+                                <i class="fas fa-download mr-2"></i>RESUME
                             </a>
-                            <a href="#contact" class="retro-btn">CONTACT ME</a>
+                            <a href="#contact" class="retro-btn"><i class="fas fa-phone mr-2"></i>CONTACT ME</a>
                         </div>
                     </div>
                     <div class="flex justify-center">
@@ -661,7 +661,14 @@
                 </div>
                 
                 <div class="retro-box">
-                    <div class="pixel-font text-lg mb-6 text-white bg-black p-2">LANGUAGES.SYS</div>
+                    <div class="pixel-font text-lg mb-4 text-white bg-black p-2">LANGUAGES.SYS</div>
+
+                    <!-- Column Headers -->
+                    <div style="display:flex; align-items:center; justify-content:space-between; padding: 4px 14px 8px; font-family:'Press Start 2P',cursive; font-size:8px; color:#666; border-bottom: 1px dashed #444; margin-bottom:10px;">
+                        <span style="width:90px;">LANGUAGE</span>
+                        <span>PROFICIENCY</span>
+                        <span>LEVEL</span>
+                    </div>
 
                     <div class="lang-level">
                         <span class="lang-name">ENGLISH</span>
@@ -692,7 +699,14 @@
                         <span class="blocks">
                             <span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span>
                         </span>
-                        <span class="percent">INTERMEDIATE</span>
+                        <span class="percent">CONVERSATIONAL</span>
+                    </div>
+
+                    <!-- Legend -->
+                    <div style="display:flex; align-items:center; gap:16px; margin-top:14px; padding: 8px 14px; border-top: 1px dashed #444; font-family:'VT323',monospace; font-size:16px; color:#666;">
+                        <span style="display:flex;align-items:center;gap:5px;"><span style="width:12px;height:12px;border:2px solid #fff;background:#fff;display:inline-block;"></span> ACTIVE</span>
+                        <span style="display:flex;align-items:center;gap:5px;"><span style="width:12px;height:12px;border:2px solid #fff;background:transparent;display:inline-block;"></span> INACTIVE</span>
+                        <span style="margin-left:auto;">5 BLOCKS = MAX</span>
                     </div>
                 </div>
             </div>
@@ -712,7 +726,7 @@
                     <div class="info-line text-lg border-2 border-white p-2 bg-black text-center">SEM 3: 83.4%</div>
                     <div class="info-line text-lg border-2 border-white p-2 bg-black text-center">SEM 4: 75.85%</div>
                     <div class="info-line text-lg border-2 border-white p-2 bg-black text-center">SEM 5: 75.71%</div>
-                    <div class="info-line text-lg border-2 border-white p-2 bg-gray-700 text-center">SEM 6: CURRENT</div>
+                    <div class="info-line text-lg border-2 border-white p-2 bg-gray-700 text-center">SEM 6: AWAITING RESULTS</div>
                 </div>
             </div>
 
@@ -738,42 +752,76 @@
     <section id="skills" class="py-20 dot-pattern">
         <div class="retro-container">
             <div class="section-title">[ SKILLS.EXE ]</div>
-            
-            <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- Category: Technical & Programming -->
+            <div class="pixel-font text-xs text-gray-400 mb-3" style="letter-spacing:2px;">&gt; TECHNICAL &amp; PROGRAMMING</div>
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div class="skill-box">
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-code"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">PROGRAMMING</div>
+                    <div class="info-line text-center text-lg">C · DBMS · Java</div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-terminal"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">SCRIPTING</div>
+                    <div class="info-line text-center text-lg">Python · Shell Basics</div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">OTHERS</div>
+                    <div class="info-line text-center text-lg">Basics of Computer Networking & AI</div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">ELECTRONICS</div>
+                    <div class="info-line text-center text-lg">Circuits · Logic Design</div>
+                </div>
+            </div>
+
+            <!-- Category: Tools & Platforms -->
+            <div class="pixel-font text-xs text-gray-400 mb-3" style="letter-spacing:2px;">&gt; TOOLS &amp; PLATFORMS</div>
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
                 <div class="skill-box">
                     <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-file-alt"></i></div>
-                    <div class="pixel-font text-sm text-center mb-2">MS OFFICE</div>
-                    <div class="info-line text-center text-lg">Word, Excel, PowerPoint</div>
+                    <div class="pixel-font text-sm text-center mb-2">MS OFFICE SUITE</div>
+                    <div class="info-line text-center text-lg">Word · Excel · PowerPoint</div>
                 </div>
-                
+                <!--
                 <div class="skill-box">
-                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-keyboard"></i></div>
-                    <div class="pixel-font text-sm text-center mb-2">SPEED TYPING</div>
-                    <div class="info-line text-center text-lg">Fast & Accurate</div>
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-globe"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">WEB DEPLOYMENT</div>
+                    <div class="info-line text-center text-lg">Cloudflare Workers · Github Pages</div>
                 </div>
-                
+                -->
                 <div class="skill-box">
                     <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-database"></i></div>
                     <div class="pixel-font text-sm text-center mb-2">DATA ENTRY</div>
                     <div class="info-line text-center text-lg">Accurate Processing</div>
                 </div>
-                
+            </div>
+
+            <!-- Category: Professional Skills -->
+            <div class="pixel-font text-xs text-gray-400 mb-3" style="letter-spacing:2px;">&gt; PROFESSIONAL SKILLS</div>
+            <div class="grid md:grid-cols-3 gap-6">
                 <div class="skill-box">
                     <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-comments"></i></div>
                     <div class="pixel-font text-sm text-center mb-2">COMMUNICATION</div>
-                    <div class="info-line text-center text-lg">Written & Verbal</div>
+                    <div class="info-line text-center text-lg">Written &amp; Verbal</div>
                 </div>
-                
+
                 <div class="skill-box">
-                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-tools"></i></div>
-                    <div class="pixel-font text-sm text-center mb-2">TECH ADAPT</div>
-                    <div class="info-line text-center text-lg">Quick Learner</div>
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-keyboard"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">SPEED TYPING</div>
+                    <div class="info-line text-center text-lg">Fast &amp; Accurate</div>
                 </div>
-                
+
                 <div class="skill-box">
-                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-code"></i></div>
-                    <div class="pixel-font text-sm text-center mb-2">PROGRAMMING</div>
-                    <div class="info-line text-center text-lg">Basic Knowledge</div>
+                    <div class="text-4xl mb-3 text-center skill-icon"><i class="fas fa-users"></i></div>
+                    <div class="pixel-font text-sm text-center mb-2">TEAMWORK</div>
+                    <div class="info-line text-center text-lg">Independent &amp; Collaborative</div>
                 </div>
             </div>
         </div>
@@ -783,66 +831,78 @@
     <section id="projects" class="py-20">
         <div class="retro-container">
             <div class="section-title">[ PROJECTS.DIR ]</div>
-            <!--
+            
             <div class="grid md:grid-cols-2 gap-8">
                 
                 <div class="project-card">
-                    <div class="pixel-font text-base mb-3 text-white">&gt; PORTFOLIO WEBSITE</div>
+                    <div class="pixel-font text-base mb-3 text-white">&gt; SECURE IoT COMMUNICATION VIA CUSTOM RF ENCODING</div>
                     <div class="info-line mb-4">
-                        A retro-themed personal portfolio website featuring CRT monitor effects, pixel art aesthetics, and responsive design. Built with modern web technologies while maintaining a nostalgic 80s computer interface look.
+                        Developed a custom encoded secure IoT communication system using 433 MHz RF modules and Arduino UNO.<br>  
+It is introduced with GeoNumeric Encoding (GNE), a novel fixed‑width dual‑layer cipher for efficient short‑range wireless transmission.<br>  
+And is implemented with keypad input, LCD output, LED indicators, and achieved 6× transmission efficiency within RadioHead ASK limits.
                     </div>
                     <div class="mb-4">
-                        <span class="project-tech">HTML</span>
-                        <span class="project-tech">CSS</span>
-                        <span class="project-tech">JAVASCRIPT</span>
-                        <span class="project-tech">TAILWIND</span>
+                        <span class="project-tech">IoT</span>
+                        <span class="project-tech">Arduino</span>
+                        <span class="project-tech">RF Communication</span>
+                        <span class="project-tech">Custom Encoding</span>
                     </div>
-                    <a href="#" class="project-link"><i class="fas fa-external-link-alt mr-1"></i> VIEW LIVE</a>
-                    <a href="#" class="project-link"><i class="fab fa-github mr-1"></i> CODE</a>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt mr-1"></i> VIEW SIMULATION</a>
+                    <!--<a href="#" class="project-link"><i class="fab fa-github mr-1"></i> CODE</a>-->
+                </div>
+
+
+                <div class="project-card">
+                    <div class="pixel-font text-base mb-3 text-white">&gt; CLAY_BOT</div>
+                    <div class="info-line mb-4">
+                        An interactive Rule‑Based Mental Health Chatbot that uses regex and keyword maps to detect emotional states and subtypes. It delivers structured support across four progressive levels (Basic → Pro) from a knowledge base of 6 domains. A crisis layer instantly provides emergency helplines when self‑harm keywords are detected.
+                    </div>
+                    <div class="mb-4">
+                        <span class="project-tech">MENTAL HEALTH</span>
+                        <span class="project-tech">NLP</span>
+                        <span class="project-tech">REGEX</span>
+                        <span class="project-tech">EMOTION DETECTION</span>
+                        <span class="project-tech">RESEARCH & ANALYSIS</span>
+                        <span class="project-tech">DATASET DESIGNING</span>
+                    </div>
+                    <a href="https://claybot.navahue.workers.dev" class="project-link"><i class="fas fa-external-link-alt mr-1"></i> DEMO</a>
+                    <!--<a href="#" class="project-link"><i class="fas fa-file-pdf mr-1"></i> REPORT</a>-->
                 </div>
 
                 
                 <div class="project-card">
-                    <div class="pixel-font text-base mb-3 text-white">&gt; ACADEMIC PROJECT</div>
+                    <div class="pixel-font text-base mb-3 text-white">&gt; TIC_BOT</div>
                     <div class="info-line mb-4">
-                        Computer Science and Electronics project developed as part of BSc curriculum. Demonstrates application of core computing concepts and problem-solving skills in a practical scenario.
+                        a Human vs AI Tic‑Tac‑Toe game using the Minimax algorithm with Alpha‑Beta Pruning. <br>It is implemented with three difficulty levels (Easy, Medium, Unbeatable) to balance playability and optimal strategy.  
                     </div>
                     <div class="mb-4">
-                        <span class="project-tech">RESEARCH</span>
-                        <span class="project-tech">ANALYSIS</span>
-                        <span class="project-tech">DOCUMENTATION</span>
+                        <span class="project-tech">AI</span>
+                        <span class="project-tech">MINIMAX</span>
+                        <span class="project-tech">ALPHA-BETA PRUNING</span>
+                        <span class="project-tech">GAME THEORY</span>
                     </div>
-                    <a href="#" class="project-link"><i class="fas fa-file-pdf mr-1"></i> REPORT</a>
+                    <a href="https://ticbot.navahue.workers.dev" class="project-link"><i class="fas fa-external-link-alt mr-1"></i> DEMO</a>
+                    <!--<a href="#" class="project-link"><i class="fas fa-info-circle mr-1"></i> DETAILS</a>-->
                 </div>
 
                 
                 <div class="project-card">
-                    <div class="pixel-font text-base mb-3 text-white">&gt; DATA MANAGEMENT SYSTEM</div>
+                    <div class="pixel-font text-base mb-3 text-white">&gt; KARNA_VERSE</div>
                     <div class="info-line mb-4">
-                        Developed a data entry and management system utilizing MS Office tools. Focused on accuracy, efficiency, and user-friendly interface for streamlined data processing and reporting.
+                        A personalised travel recommendation platform for Karnataka using content‑based filtering.<br>  
+Works based on the pre-defined dataset and on the implemented calcMatch() which computes preference scores across travel mode, type, and region.<br>  
+It provides with distance/duration estimations, permit checklist, live booking status integration and other required details along with the required URL links for seamless planning.
                     </div>
                     <div class="mb-4">
-                        <span class="project-tech">MS EXCEL</span>
-                        <span class="project-tech">MS ACCESS</span>
-                        <span class="project-tech">DATA ENTRY</span>
+                        <span class="project-tech">CONTENT-FILTERING</span>
+                        <span class="project-tech">RECOMMENDATION-ENGINE</span>
+                        <span class="project-tech">PERSONALIZATION</span>
+                        <span class="project-tech">DATASET DESIGNING</span>
                     </div>
-                    <a href="#" class="project-link"><i class="fas fa-info-circle mr-1"></i> DETAILS</a>
+                    <a href="https://karnaverse.navahue.workers.dev" class="project-link"><i class="fas fa-external-link-alt mr-1"></i> DEMO</a>
+                    <!--<a href="#" class="project-link"><i class="fas fa-images mr-1"></i> GALLERY</a>-->
                 </div>
-
-                
-                <div class="project-card">
-                    <div class="pixel-font text-base mb-3 text-white">&gt; SCIENCE EXHIBITION</div>
-                    <div class="info-line mb-4">
-                        Contributed to organizing and presenting scientific concepts at BVJ Science Center. Developed interactive demonstrations to engage visitors and explain complex scientific principles in accessible ways.
-                    </div>
-                    <div class="mb-4">
-                        <span class="project-tech">SCIENCE COMM</span>
-                        <span class="project-tech">EDUCATION</span>
-                        <span class="project-tech">PRESENTATION</span>
-                    </div>
-                    <a href="#" class="project-link"><i class="fas fa-images mr-1"></i> GALLERY</a>
-                </div>
-            </div> -->
+            </div>
 
             <div class="text-center mt-12">
                 <div class="info-line text-xl text-gray-400">
@@ -880,7 +940,7 @@
                 <div class="pixel-font text-base mb-4 text-white bg-black p-2 inline-block">&gt; NCC CADET</div>
                 <div class="info-line text-gray-300 font-bold">NATIONAL CADET CORPS</div>
                 <div class="info-line mb-4 text-gray-400">EXTRACURRICULAR ACTIVITY</div>
-                <div class="info-line">▪ Participating in 'C' Certificate training</div>
+                <div class="info-line">▪ Completed 'C' Certificate training</div>
                 <div class="info-line">▪ Leadership development activities</div>
                 <div class="info-line">▪ Building discipline and character</div>
                 <div class="info-line">▪ Community service initiatives</div>
@@ -942,8 +1002,8 @@
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
-            <div class="info-line text-lg text-white">© 2025 GAGAN A AYI - ALL RIGHTS RESERVED</div>
-            <div class="mono-font text-sm mt-2 text-gray-500">SYSTEM v1.0.0 - BUILD 20250101</div>
+            <div class="info-line text-lg text-white">© 2026 GAGAN A AYI - ALL RIGHTS RESERVED</div>
+            <div class="mono-font text-sm mt-2 text-gray-500">SYSTEM v2.0.1 - BUILD 20260001</div>
         </div>
     </footer>
 
